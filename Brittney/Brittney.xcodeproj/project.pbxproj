@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD976A781EB6C822004EC761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD976A771EB6C822004EC761 /* AppDelegate.swift */; };
+		CD976A7A1EB6C822004EC761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD976A791EB6C822004EC761 /* ViewController.swift */; };
+		CD976A7D1EB6C822004EC761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD976A7B1EB6C822004EC761 /* Main.storyboard */; };
+		CD976A7F1EB6C822004EC761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD976A7E1EB6C822004EC761 /* Assets.xcassets */; };
+		CD976A821EB6C822004EC761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD976A801EB6C822004EC761 /* LaunchScreen.storyboard */; };
+		CD976A8D1EB6C822004EC761 /* BrittneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD976A8C1EB6C822004EC761 /* BrittneyTests.swift */; };
+		CD976A981EB6C822004EC761 /* BrittneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD976A971EB6C822004EC761 /* BrittneyUITests.swift */; };
+		CD976AA81EB6CB19004EC761 /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD976AA71EB6CB19004EC761 /* Peripheral.swift */; };
+		CD976AAB1EB6CBBF004EC761 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD976AAA1EB6CBBF004EC761 /* CoreBluetooth.framework */; };
+		CD976AAD1EB6D477004EC761 /* PeripheralStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD976AAC1EB6D477004EC761 /* PeripheralStateMachine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD976A891EB6C822004EC761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD976A6C1EB6C822004EC761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD976A731EB6C822004EC761;
+			remoteInfo = Brittney;
+		};
+		CD976A941EB6C822004EC761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD976A6C1EB6C822004EC761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD976A731EB6C822004EC761;
+			remoteInfo = Brittney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD976A741EB6C822004EC761 /* Brittney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brittney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD976A771EB6C822004EC761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD976A791EB6C822004EC761 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD976A7C1EB6C822004EC761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD976A7E1EB6C822004EC761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD976A811EB6C822004EC761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD976A831EB6C822004EC761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD976A881EB6C822004EC761 /* BrittneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrittneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD976A8C1EB6C822004EC761 /* BrittneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrittneyTests.swift; sourceTree = "<group>"; };
+		CD976A8E1EB6C822004EC761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD976A931EB6C822004EC761 /* BrittneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrittneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD976A971EB6C822004EC761 /* BrittneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrittneyUITests.swift; sourceTree = "<group>"; };
+		CD976A991EB6C822004EC761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD976AA71EB6CB19004EC761 /* Peripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Peripheral.swift; path = Communication/Peripheral.swift; sourceTree = "<group>"; };
+		CD976AAA1EB6CBBF004EC761 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CD976AAC1EB6D477004EC761 /* PeripheralStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeripheralStateMachine.swift; path = Communication/PeripheralStateMachine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD976A711EB6C822004EC761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD976AAB1EB6CBBF004EC761 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD976A851EB6C822004EC761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD976A901EB6C822004EC761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD976A6B1EB6C822004EC761 = {
+			isa = PBXGroup;
+			children = (
+				CD976A761EB6C822004EC761 /* Brittney */,
+				CD976A8B1EB6C822004EC761 /* BrittneyTests */,
+				CD976A961EB6C822004EC761 /* BrittneyUITests */,
+				CD976A751EB6C822004EC761 /* Products */,
+				CD976AA91EB6CBBF004EC761 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD976A751EB6C822004EC761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD976A741EB6C822004EC761 /* Brittney.app */,
+				CD976A881EB6C822004EC761 /* BrittneyTests.xctest */,
+				CD976A931EB6C822004EC761 /* BrittneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD976A761EB6C822004EC761 /* Brittney */ = {
+			isa = PBXGroup;
+			children = (
+				CD976A771EB6C822004EC761 /* AppDelegate.swift */,
+				CD976A791EB6C822004EC761 /* ViewController.swift */,
+				CD976A7B1EB6C822004EC761 /* Main.storyboard */,
+				CD976AA61EB6CAF3004EC761 /* Communication */,
+				CD976A7E1EB6C822004EC761 /* Assets.xcassets */,
+				CD976A801EB6C822004EC761 /* LaunchScreen.storyboard */,
+				CD976A831EB6C822004EC761 /* Info.plist */,
+			);
+			path = Brittney;
+			sourceTree = "<group>";
+		};
+		CD976A8B1EB6C822004EC761 /* BrittneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD976A8C1EB6C822004EC761 /* BrittneyTests.swift */,
+				CD976A8E1EB6C822004EC761 /* Info.plist */,
+			);
+			path = BrittneyTests;
+			sourceTree = "<group>";
+		};
+		CD976A961EB6C822004EC761 /* BrittneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD976A971EB6C822004EC761 /* BrittneyUITests.swift */,
+				CD976A991EB6C822004EC761 /* Info.plist */,
+			);
+			path = BrittneyUITests;
+			sourceTree = "<group>";
+		};
+		CD976AA61EB6CAF3004EC761 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				CD976AA71EB6CB19004EC761 /* Peripheral.swift */,
+				CD976AAC1EB6D477004EC761 /* PeripheralStateMachine.swift */,
+			);
+			name = Communication;
+			sourceTree = "<group>";
+		};
+		CD976AA91EB6CBBF004EC761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD976AAA1EB6CBBF004EC761 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD976A731EB6C822004EC761 /* Brittney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD976A9C1EB6C822004EC761 /* Build configuration list for PBXNativeTarget "Brittney" */;
+			buildPhases = (
+				CD976A701EB6C822004EC761 /* Sources */,
+				CD976A711EB6C822004EC761 /* Frameworks */,
+				CD976A721EB6C822004EC761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brittney;
+			productName = Brittney;
+			productReference = CD976A741EB6C822004EC761 /* Brittney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD976A871EB6C822004EC761 /* BrittneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD976A9F1EB6C822004EC761 /* Build configuration list for PBXNativeTarget "BrittneyTests" */;
+			buildPhases = (
+				CD976A841EB6C822004EC761 /* Sources */,
+				CD976A851EB6C822004EC761 /* Frameworks */,
+				CD976A861EB6C822004EC761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD976A8A1EB6C822004EC761 /* PBXTargetDependency */,
+			);
+			name = BrittneyTests;
+			productName = BrittneyTests;
+			productReference = CD976A881EB6C822004EC761 /* BrittneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD976A921EB6C822004EC761 /* BrittneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD976AA21EB6C822004EC761 /* Build configuration list for PBXNativeTarget "BrittneyUITests" */;
+			buildPhases = (
+				CD976A8F1EB6C822004EC761 /* Sources */,
+				CD976A901EB6C822004EC761 /* Frameworks */,
+				CD976A911EB6C822004EC761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD976A951EB6C822004EC761 /* PBXTargetDependency */,
+			);
+			name = BrittneyUITests;
+			productName = BrittneyUITests;
+			productReference = CD976A931EB6C822004EC761 /* BrittneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD976A6C1EB6C822004EC761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Zachary Stegall";
+				TargetAttributes = {
+					CD976A731EB6C822004EC761 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JCCQG45J9Z;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					CD976A871EB6C822004EC761 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JCCQG45J9Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD976A731EB6C822004EC761;
+					};
+					CD976A921EB6C822004EC761 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JCCQG45J9Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD976A731EB6C822004EC761;
+					};
+				};
+			};
+			buildConfigurationList = CD976A6F1EB6C822004EC761 /* Build configuration list for PBXProject "Brittney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD976A6B1EB6C822004EC761;
+			productRefGroup = CD976A751EB6C822004EC761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD976A731EB6C822004EC761 /* Brittney */,
+				CD976A871EB6C822004EC761 /* BrittneyTests */,
+				CD976A921EB6C822004EC761 /* BrittneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD976A721EB6C822004EC761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD976A821EB6C822004EC761 /* LaunchScreen.storyboard in Resources */,
+				CD976A7F1EB6C822004EC761 /* Assets.xcassets in Resources */,
+				CD976A7D1EB6C822004EC761 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD976A861EB6C822004EC761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD976A911EB6C822004EC761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD976A701EB6C822004EC761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD976A7A1EB6C822004EC761 /* ViewController.swift in Sources */,
+				CD976AAD1EB6D477004EC761 /* PeripheralStateMachine.swift in Sources */,
+				CD976AA81EB6CB19004EC761 /* Peripheral.swift in Sources */,
+				CD976A781EB6C822004EC761 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD976A841EB6C822004EC761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD976A8D1EB6C822004EC761 /* BrittneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD976A8F1EB6C822004EC761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD976A981EB6C822004EC761 /* BrittneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD976A8A1EB6C822004EC761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD976A731EB6C822004EC761 /* Brittney */;
+			targetProxy = CD976A891EB6C822004EC761 /* PBXContainerItemProxy */;
+		};
+		CD976A951EB6C822004EC761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD976A731EB6C822004EC761 /* Brittney */;
+			targetProxy = CD976A941EB6C822004EC761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD976A7B1EB6C822004EC761 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD976A7C1EB6C822004EC761 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD976A801EB6C822004EC761 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD976A811EB6C822004EC761 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD976A9A1EB6C822004EC761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD976A9B1EB6C822004EC761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD976A9D1EB6C822004EC761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JCCQG45J9Z;
+				INFOPLIST_FILE = Brittney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.Brittney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD976A9E1EB6C822004EC761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JCCQG45J9Z;
+				INFOPLIST_FILE = Brittney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.Brittney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CD976AA01EB6C822004EC761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JCCQG45J9Z;
+				INFOPLIST_FILE = BrittneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.BrittneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brittney.app/Brittney";
+			};
+			name = Debug;
+		};
+		CD976AA11EB6C822004EC761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JCCQG45J9Z;
+				INFOPLIST_FILE = BrittneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.BrittneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brittney.app/Brittney";
+			};
+			name = Release;
+		};
+		CD976AA31EB6C822004EC761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JCCQG45J9Z;
+				INFOPLIST_FILE = BrittneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.BrittneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brittney;
+			};
+			name = Debug;
+		};
+		CD976AA41EB6C822004EC761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JCCQG45J9Z;
+				INFOPLIST_FILE = BrittneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.BrittneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brittney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD976A6F1EB6C822004EC761 /* Build configuration list for PBXProject "Brittney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD976A9A1EB6C822004EC761 /* Debug */,
+				CD976A9B1EB6C822004EC761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD976A9C1EB6C822004EC761 /* Build configuration list for PBXNativeTarget "Brittney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD976A9D1EB6C822004EC761 /* Debug */,
+				CD976A9E1EB6C822004EC761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD976A9F1EB6C822004EC761 /* Build configuration list for PBXNativeTarget "BrittneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD976AA01EB6C822004EC761 /* Debug */,
+				CD976AA11EB6C822004EC761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD976AA21EB6C822004EC761 /* Build configuration list for PBXNativeTarget "BrittneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD976AA31EB6C822004EC761 /* Debug */,
+				CD976AA41EB6C822004EC761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD976A6C1EB6C822004EC761 /* Project object */;
+}
